@@ -42,3 +42,12 @@ ELSE → improvement = none
 ---
 
 ## Output Format
+{
+  "version": "2.0",
+  "date": "YYYY-MM-DD",
+  "priority_status": "done | external_miss | self_miss | incomplete",
+  "emotion_branch": "negative | neutral | positive | incomplete",
+  "emotion_action": "freewrite_5_lines | plan_reduction_15min | monitor_7d | log_event_1_sentence | mark_routine | log_repeatable_win | log_positive_only | incomplete",
+  "progress": "deep | light | none | incomplete",
+  "improvement": "recommit_rule | define_new_rule | none | incomplete"
+}
